@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "./Button";
 import menuItems from "./MenuItems";
-import "./Navbar.css";
+import "./Navbar.scss";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
           return (
             <li key={index}>
               <a href={item.url} className={item.cName}>
-                {item.title}
+                {item.title } &nbsp; <i class= "fas fa-chevron-down"></i>
               </a>
             </li>
           );

@@ -1,3 +1,7 @@
+
+$color: #fff;
+$color-medium : #1b1b1b;
+
 .navbar {
     background: linear-gradient(
       90deg,
@@ -12,7 +16,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: $color;
     justify-self: start;
     padding-right: 20px;
     cursor: pointer;
@@ -30,19 +34,19 @@
   }
   
   .nav-links {
-    color: #fff;
+    color: $color;
     text-decoration: none;
     padding: 0.5rem 1rem;
   }
   
   .nav-links:hover {
-    background-color: #1b1b1b;
+    background-color: $color-medium;
     border-radius: 4px;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #fff;
+    color: $color;
   }
   
   .nav-links-mobile {
@@ -71,7 +75,7 @@
     }
   
     .nav-menu.active {
-      background: #1b1b1b;
+      background: $color-medium;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -86,7 +90,7 @@
     }
   
     .nav-links:hover {
-      background-color: #1b1b1b;
+      background-color: $color-medium;
       border-radius: 0;
     }
   
@@ -108,7 +112,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: $color;
       font-size: 2rem;
     }
   
@@ -121,12 +125,12 @@
       width: 80%;
       background: #4ad9e4;
       text-decoration: none;
-      color: #fff;
+      color: $color;
       font-size: 1.5rem;
     }
   
     .nav-links-mobile:hover {
-      background: #fff;
+      background: $color;
       color: #6568f4;
       transition: 250ms;
     }
@@ -134,5 +138,6 @@
     Button {
       display: none;
     }
+    
   }
   
