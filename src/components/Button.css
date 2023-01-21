@@ -1,0 +1,39 @@
+
+
+  
+  .btn {
+    padding: .75rem 1.5rem;
+    border-radius: .6rem;
+    border: 1px #000;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn:hover {
+    padding: .65rem 1.2rem;
+    color: #f4f4f4;
+    transition: 250ms;
+  }
+  
+  .btn-primary {
+    background-image: linear-gradient(135deg,#0084e9,#762cec);
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #0084e9;
+  }
+  
+  .btn-medium {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .btn-large {
+    padding: 12px 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
