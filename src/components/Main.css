@@ -1,0 +1,102 @@
+.container-s {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.container-s {
+    max-width: 48rem;
+}
+
+.container-ver {
+    padding-top: 7rem;
+}
+
+@media screen and (min-width: 1440px){
+    .container-ver {
+        overflow: auto;    
+    }
+}
+
+
+.text{
+    padding-top: 0;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.align-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.max-w {
+    width: 100%;
+    max-width: 64rem;
+}
+
+.margin-small {
+    margin: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.text-size {
+    color: #4d4d4d;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 767px) {
+    .text-size {
+        font-size: 1rem;
+        color: #4d4d4d;
+        padding: 4px;
+    }
+}
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-medium {
+    margin: 2rem;
+}
+
+.btn-row {
+    justify-content: center;
+}
+
+
+.btn-t {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    background-color: #f4f4f4;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #000;
+    border: 2px solid #000;
+}
