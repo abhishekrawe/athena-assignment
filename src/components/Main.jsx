@@ -12,7 +12,7 @@ function Main() {
                     <p class="text-size">Open conversations and nurture relationships at scale and be the first choice when your ideal candidate is ready to explore.<br /></p>
                     <div class="margin-top margin-medium">
                         <div class="btn-row">
-                            <a href="" class="btn-t btn">View Kula Outreach</a>
+                            <a href="" class="btn-t btn"><b>View Kula Outreach</b></a>
                         </div>
                     </div>
                 </div>
