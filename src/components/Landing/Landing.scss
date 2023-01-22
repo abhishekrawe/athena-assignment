@@ -4,7 +4,7 @@ $color-text: #ff3a7c,#741eff;
 
 .main {
   width: 37%;
-  height: 235vh;
+  height: 270vh;
   min-height: 1000px;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,15 @@ $color-text: #ff3a7c,#741eff;
     top: -100%;
     left: -100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .mobileImg {
+    width: 328px;
+    height: 300px;
+    margin-left: 6px;
+    border-radius: 20px;
+  }
 }
 
 
@@ -86,11 +95,19 @@ h2 {
   }
 }
 
-
 .text-size-medium-2 {
-    color: $color-medium;
-    font-size: 1.125rem;
+  color: $color-medium;
+  font-size: 1.125rem;
+  margin: 1rem;
+} 
+
+@media screen and (max-width: 767px) {
+  .text-size-medium-2 {
+    font-weight: 400;
+    margin: 1rem;
+  }
 }
+
 
 .margin-bottom.margin-xsmall {
   border-radius: 0.6rem;
