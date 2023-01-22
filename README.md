@@ -7,7 +7,7 @@
 ## 🃏Glimse of Project
 
 
-### `web view without api` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  `web view with API`
+### `web view without api`  `web view with API`
 ![readme](https://user-images.githubusercontent.com/65603830/213916344-2dec2da7-7b8b-4fe8-ac9b-22f2dbd860de.gif)
 ![web-wid-api_AdobeExpress](https://user-images.githubusercontent.com/65603830/213916727-f0be96be-890a-4f16-84ea-4a1137fb9d78.gif)
 
