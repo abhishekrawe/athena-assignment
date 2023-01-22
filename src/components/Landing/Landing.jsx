@@ -60,7 +60,7 @@ const Landing = ({text}) => {
                             <h2 className='margin-xsmall'>{values.subHeading}</h2>
                             <p className='text-size-medium-2 margin-xsmall'>{values.description}</p>
 
-                            {windowDimensions.width < 765 && <img src={`../Videos/video${index+1}.gif`}/>}
+                            {windowDimensions.width < 765 && <img className="mobileImg" src={`../Videos/video${index+1}.gif`}/>}
                         </div>
                         ))}
                         
