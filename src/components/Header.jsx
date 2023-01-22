@@ -1,6 +1,6 @@
 import React from 'react'
-import './Main.css'
-function Main() {
+import './Header.css'
+function Header() {
 
     return (
         <>
@@ -23,4 +23,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default Header;
